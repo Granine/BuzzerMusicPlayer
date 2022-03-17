@@ -97,6 +97,7 @@ class musicPlayer:
         else:
                 print("Song select error")
         #read file
+        #define your path here if changed
         fileHigh = open("data\musicSheet"+songH, "r")
         fileLow = open("data\musicSheet"+songL, "r")
         fileInfo = open("data\musicSheet"+songI, "r")
