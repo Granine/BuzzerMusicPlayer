@@ -1,5 +1,5 @@
 # BuzzerMusicPlayer
-A music player that uses standard Buzzers (Tested with Piezo and Magnetic) to simulate and play baisc piano sheets. 
+A music player that depend on two standard Buzzers (Tested with Piezo and Magnetic) to simulate and play basic piano sheets. 
 
 ## Requirement / hardware:
 - Microcontroller with pwm output
@@ -31,3 +31,6 @@ parse note data into piano keys (you can play it even if you never learned piano
 - have multiple music player instance (so two song can play individually with isoluated time/stop play stautus)
 - support various other feature like get run time, get current note, get all music note etc
 - read from file instead of code, so user can change with music without modifying the code (disabled as itsybitsy have weird file order)
+
+## Other
+- sample music is included with the player, however they are for demonstration purposes only. As I do not hold related copy rights
